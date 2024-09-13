@@ -181,7 +181,7 @@ namespace OperadoresRelacionales
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Gray;
+            this.button4.BackColor = System.Drawing.Color.Red;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.Location = new System.Drawing.Point(3, 113);
             this.button4.Name = "button4";
