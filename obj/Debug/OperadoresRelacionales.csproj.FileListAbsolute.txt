@@ -1,0 +1,9 @@
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.csproj.AssemblyReference.cache
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.frmOpRelacionales.resources
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.Properties.Resources.resources
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.csproj.GenerateResource.cache
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.csproj.CoreCompileInputs.cache
+C:\Users\TAVO\source\repos\OperadoresRelacionales\bin\Debug\OperadoresRelacionales.exe
+C:\Users\TAVO\source\repos\OperadoresRelacionales\bin\Debug\OperadoresRelacionales.pdb
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.exe
+C:\Users\TAVO\source\repos\OperadoresRelacionales\obj\Debug\OperadoresRelacionales.pdb
