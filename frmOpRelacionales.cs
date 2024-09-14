@@ -20,6 +20,12 @@ namespace OperadoresRelacionales
         int numero1, numero2;
         bool resultado;
 
+        private void Asignacion()
+        {
+            numero1 = Convert.ToInt32(txtnumero1.Text);
+            numero2 = Convert.ToInt32(txtnumero2.Text);
+        }
+
         private void frmOpRelacionales_Load(object sender, EventArgs e)
         {
 
