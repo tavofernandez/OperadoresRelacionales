@@ -249,6 +249,7 @@ namespace OperadoresRelacionales
             this.Name = "frmOpRelacionales";
             this.Text = "frmOpRelacionales";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmOpRelacionales_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

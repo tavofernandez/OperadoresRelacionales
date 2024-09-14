@@ -15,5 +15,14 @@ namespace OperadoresRelacionales
         {
             InitializeComponent();
         }
+
+        //Declaramos las variables y sus tipos de datos
+        int numero1, numero2;
+        bool resultado;
+
+        private void frmOpRelacionales_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
