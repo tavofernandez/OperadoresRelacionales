@@ -38,12 +38,12 @@ namespace OperadoresRelacionales
             this.txtnumero1 = new System.Windows.Forms.TextBox();
             this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnmayor = new System.Windows.Forms.Button();
+            this.btnmenor = new System.Windows.Forms.Button();
+            this.btnmenorigual = new System.Windows.Forms.Button();
+            this.btnmayorigual = new System.Windows.Forms.Button();
+            this.btnigual = new System.Windows.Forms.Button();
+            this.btndiferente = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1.SuspendLayout();
@@ -135,102 +135,102 @@ namespace OperadoresRelacionales
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.button1);
-            this.flowLayoutPanel1.Controls.Add(this.button2);
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Controls.Add(this.button5);
-            this.flowLayoutPanel1.Controls.Add(this.button6);
+            this.flowLayoutPanel1.Controls.Add(this.btnmayor);
+            this.flowLayoutPanel1.Controls.Add(this.btnmenor);
+            this.flowLayoutPanel1.Controls.Add(this.btnmenorigual);
+            this.flowLayoutPanel1.Controls.Add(this.btnmayorigual);
+            this.flowLayoutPanel1.Controls.Add(this.btnigual);
+            this.flowLayoutPanel1.Controls.Add(this.btndiferente);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(780, 227);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(362, 223);
             this.flowLayoutPanel1.TabIndex = 7;
             // 
-            // button1
+            // btnmayor
             // 
-            this.button1.BackColor = System.Drawing.Color.Yellow;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(113, 104);
-            this.button1.TabIndex = 0;
-            this.button1.Text = ">";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnmayor.BackColor = System.Drawing.Color.Yellow;
+            this.btnmayor.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnmayor.FlatAppearance.BorderSize = 2;
+            this.btnmayor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmayor.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmayor.Location = new System.Drawing.Point(3, 3);
+            this.btnmayor.Name = "btnmayor";
+            this.btnmayor.Size = new System.Drawing.Size(113, 104);
+            this.btnmayor.TabIndex = 0;
+            this.btnmayor.Text = ">";
+            this.btnmayor.UseVisualStyleBackColor = false;
+            this.btnmayor.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnmenor
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(122, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(113, 104);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "<";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnmenor.BackColor = System.Drawing.Color.Lime;
+            this.btnmenor.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnmenor.FlatAppearance.BorderSize = 2;
+            this.btnmenor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmenor.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmenor.Location = new System.Drawing.Point(122, 3);
+            this.btnmenor.Name = "btnmenor";
+            this.btnmenor.Size = new System.Drawing.Size(113, 104);
+            this.btnmenor.TabIndex = 1;
+            this.btnmenor.Text = "<";
+            this.btnmenor.UseVisualStyleBackColor = false;
+            this.btnmenor.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnmenorigual
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(241, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(113, 104);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "<=";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnmenorigual.BackColor = System.Drawing.Color.Magenta;
+            this.btnmenorigual.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnmenorigual.FlatAppearance.BorderSize = 2;
+            this.btnmenorigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmenorigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmenorigual.Location = new System.Drawing.Point(241, 3);
+            this.btnmenorigual.Name = "btnmenorigual";
+            this.btnmenorigual.Size = new System.Drawing.Size(113, 104);
+            this.btnmenorigual.TabIndex = 2;
+            this.btnmenorigual.Text = "<=";
+            this.btnmenorigual.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btnmayorigual
             // 
-            this.button4.BackColor = System.Drawing.Color.Red;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.BorderSize = 2;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(3, 113);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(113, 104);
-            this.button4.TabIndex = 3;
-            this.button4.Text = ">=";
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnmayorigual.BackColor = System.Drawing.Color.Red;
+            this.btnmayorigual.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnmayorigual.FlatAppearance.BorderSize = 2;
+            this.btnmayorigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnmayorigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmayorigual.Location = new System.Drawing.Point(3, 113);
+            this.btnmayorigual.Name = "btnmayorigual";
+            this.btnmayorigual.Size = new System.Drawing.Size(113, 104);
+            this.btnmayorigual.TabIndex = 3;
+            this.btnmayorigual.Text = ">=";
+            this.btnmayorigual.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btnigual
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkOrange;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(122, 113);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(113, 104);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "==";
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnigual.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnigual.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btnigual.FlatAppearance.BorderSize = 2;
+            this.btnigual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnigual.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnigual.Location = new System.Drawing.Point(122, 113);
+            this.btnigual.Name = "btnigual";
+            this.btnigual.Size = new System.Drawing.Size(113, 104);
+            this.btnigual.TabIndex = 4;
+            this.btnigual.Text = "==";
+            this.btnigual.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btndiferente
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(241, 113);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(113, 104);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "!=";
-            this.button6.UseVisualStyleBackColor = false;
+            this.btndiferente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.btndiferente.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btndiferente.FlatAppearance.BorderSize = 2;
+            this.btndiferente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btndiferente.Font = new System.Drawing.Font("Microsoft Sans Serif", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btndiferente.Location = new System.Drawing.Point(241, 113);
+            this.btndiferente.Name = "btndiferente";
+            this.btndiferente.Size = new System.Drawing.Size(113, 104);
+            this.btndiferente.TabIndex = 5;
+            this.btndiferente.Text = "!=";
+            this.btndiferente.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
@@ -289,12 +289,12 @@ namespace OperadoresRelacionales
         private System.Windows.Forms.TextBox txtnumero1;
         private System.Windows.Forms.TextBox txtnumero2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnmayor;
+        private System.Windows.Forms.Button btnmenor;
+        private System.Windows.Forms.Button btnmenorigual;
+        private System.Windows.Forms.Button btnmayorigual;
+        private System.Windows.Forms.Button btnigual;
+        private System.Windows.Forms.Button btndiferente;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
     }
