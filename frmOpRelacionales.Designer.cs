@@ -247,6 +247,7 @@ namespace OperadoresRelacionales
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "frmOpRelacionales";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmOpRelacionales";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmOpRelacionales_Load);
