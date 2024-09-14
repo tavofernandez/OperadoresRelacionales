@@ -26,6 +26,16 @@ namespace OperadoresRelacionales
             numero2 = Convert.ToInt32(txtnumero2.Text);
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void frmOpRelacionales_Load(object sender, EventArgs e)
         {
 
