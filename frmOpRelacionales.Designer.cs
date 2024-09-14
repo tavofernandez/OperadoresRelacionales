@@ -34,9 +34,9 @@ namespace OperadoresRelacionales
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lblresultado = new System.Windows.Forms.Label();
+            this.txtnumero1 = new System.Windows.Forms.TextBox();
+            this.txtnumero2 = new System.Windows.Forms.TextBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -57,7 +57,7 @@ namespace OperadoresRelacionales
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1432, 212);
+            this.label1.Size = new System.Drawing.Size(1370, 212);
             this.label1.TabIndex = 0;
             this.label1.Text = "OPERADORES RELACIONALES";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -98,39 +98,39 @@ namespace OperadoresRelacionales
             this.label4.TabIndex = 3;
             this.label4.Text = "Resultado:";
             // 
-            // label5
+            // lblresultado
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Gadugi", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Lime;
-            this.label5.Location = new System.Drawing.Point(665, 583);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 40);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "----";
+            this.lblresultado.AutoSize = true;
+            this.lblresultado.BackColor = System.Drawing.Color.Transparent;
+            this.lblresultado.Font = new System.Drawing.Font("Gadugi", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblresultado.ForeColor = System.Drawing.Color.Lime;
+            this.lblresultado.Location = new System.Drawing.Point(665, 583);
+            this.lblresultado.Name = "lblresultado";
+            this.lblresultado.Size = new System.Drawing.Size(73, 40);
+            this.lblresultado.TabIndex = 4;
+            this.lblresultado.Text = "----";
             // 
-            // textBox1
+            // txtnumero1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Fuchsia;
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(516, 289);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(195, 35);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtnumero1.BackColor = System.Drawing.Color.Fuchsia;
+            this.txtnumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumero1.ForeColor = System.Drawing.Color.White;
+            this.txtnumero1.Location = new System.Drawing.Point(516, 289);
+            this.txtnumero1.Name = "txtnumero1";
+            this.txtnumero1.Size = new System.Drawing.Size(195, 35);
+            this.txtnumero1.TabIndex = 5;
+            this.txtnumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // textBox2
+            // txtnumero2
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Fuchsia;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(516, 370);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(195, 35);
-            this.textBox2.TabIndex = 6;
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtnumero2.BackColor = System.Drawing.Color.Fuchsia;
+            this.txtnumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumero2.ForeColor = System.Drawing.Color.White;
+            this.txtnumero2.Location = new System.Drawing.Point(516, 370);
+            this.txtnumero2.Name = "txtnumero2";
+            this.txtnumero2.Size = new System.Drawing.Size(195, 35);
+            this.txtnumero2.TabIndex = 6;
+            this.txtnumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // flowLayoutPanel1
             // 
@@ -234,13 +234,13 @@ namespace OperadoresRelacionales
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1432, 661);
+            this.ClientSize = new System.Drawing.Size(1370, 661);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtnumero2);
+            this.Controls.Add(this.txtnumero1);
+            this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -261,9 +261,9 @@ namespace OperadoresRelacionales
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lblresultado;
+        private System.Windows.Forms.TextBox txtnumero1;
+        private System.Windows.Forms.TextBox txtnumero2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
