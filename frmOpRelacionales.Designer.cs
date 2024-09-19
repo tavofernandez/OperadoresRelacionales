@@ -189,6 +189,7 @@ namespace OperadoresRelacionales
             this.btnmenorigual.TabIndex = 2;
             this.btnmenorigual.Text = "<=";
             this.btnmenorigual.UseVisualStyleBackColor = false;
+            this.btnmenorigual.Click += new System.EventHandler(this.btnmenorigual_Click);
             // 
             // btnmayorigual
             // 
