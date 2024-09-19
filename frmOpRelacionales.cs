@@ -81,7 +81,7 @@ namespace OperadoresRelacionales
 
         private void btnmenorigual_Click(object sender, EventArgs e)
         {
-            
+            Menorigual();
         }
 
         private void Menorigual()
