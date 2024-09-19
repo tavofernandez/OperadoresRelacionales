@@ -159,7 +159,7 @@ namespace OperadoresRelacionales
             this.btnmayor.TabIndex = 0;
             this.btnmayor.Text = ">";
             this.btnmayor.UseVisualStyleBackColor = false;
-            this.btnmayor.Click += new System.EventHandler(this.button1_Click);
+            this.btnmayor.Click += new System.EventHandler(this.btnmayor_Click);
             // 
             // btnmenor
             // 

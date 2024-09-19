@@ -36,6 +36,28 @@ namespace OperadoresRelacionales
 
         }
 
+        private void btnmayor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Mayorque()
+        {
+            Asignacion();
+
+            if (numero1 > numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+
+            //se mostrara en la pantalla mediante un label
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void frmOpRelacionales_Load(object sender, EventArgs e)
         {
 
