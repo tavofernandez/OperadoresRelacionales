@@ -174,7 +174,7 @@ namespace OperadoresRelacionales
             this.btnmenor.TabIndex = 1;
             this.btnmenor.Text = "<";
             this.btnmenor.UseVisualStyleBackColor = false;
-            this.btnmenor.Click += new System.EventHandler(this.button2_Click);
+            this.btnmenor.Click += new System.EventHandler(this.btnmenor_Click);
             // 
             // btnmenorigual
             // 

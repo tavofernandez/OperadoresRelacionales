@@ -58,6 +58,26 @@ namespace OperadoresRelacionales
             lblresultado.Text = resultado.ToString();
         }
 
+        private void btnmenor_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Menorque()
+        {
+            Asignacion();
+
+            if (numero1 < numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+
+            lblresultado.Text = resultado.ToString();
+        }
         private void frmOpRelacionales_Load(object sender, EventArgs e)
         {
 
