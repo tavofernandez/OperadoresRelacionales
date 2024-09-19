@@ -38,7 +38,7 @@ namespace OperadoresRelacionales
 
         private void btnmayor_Click(object sender, EventArgs e)
         {
-
+            Mayorque();
         }
 
         private void Mayorque()
