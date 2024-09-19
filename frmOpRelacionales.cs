@@ -81,6 +81,11 @@ namespace OperadoresRelacionales
 
         private void btnmenorigual_Click(object sender, EventArgs e)
         {
+            
+        }
+
+        private void Menorigual()
+        {
             Asignacion();
 
             if (numero1 <= numero2)
