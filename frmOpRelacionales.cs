@@ -102,7 +102,7 @@ namespace OperadoresRelacionales
 
         private void btnmayorigual_Click(object sender, EventArgs e)
         {
-
+            Mayorigual();
         }
 
         private void Mayorigual()
