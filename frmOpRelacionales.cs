@@ -60,7 +60,7 @@ namespace OperadoresRelacionales
 
         private void btnmenor_Click(object sender, EventArgs e)
         {
-            
+            Menorque();
         }
 
         private void Menorque()
