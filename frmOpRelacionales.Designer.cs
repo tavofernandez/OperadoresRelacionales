@@ -103,7 +103,7 @@ namespace OperadoresRelacionales
             this.lblresultado.AutoSize = true;
             this.lblresultado.BackColor = System.Drawing.Color.Transparent;
             this.lblresultado.Font = new System.Drawing.Font("Gadugi", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblresultado.ForeColor = System.Drawing.Color.Lime;
+            this.lblresultado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblresultado.Location = new System.Drawing.Point(665, 583);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(73, 40);
