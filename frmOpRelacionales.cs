@@ -123,7 +123,7 @@ namespace OperadoresRelacionales
 
         private void btnigual_Click(object sender, EventArgs e)
         {
-
+            Igual();
         }
 
         private void Igual()
