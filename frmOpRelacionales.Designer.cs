@@ -219,6 +219,7 @@ namespace OperadoresRelacionales
             this.btnigual.TabIndex = 4;
             this.btnigual.Text = "==";
             this.btnigual.UseVisualStyleBackColor = false;
+            this.btnigual.Click += new System.EventHandler(this.btnigual_Click);
             // 
             // btndiferente
             // 
