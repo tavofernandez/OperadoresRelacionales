@@ -144,7 +144,7 @@ namespace OperadoresRelacionales
 
         private void btndiferente_Click(object sender, EventArgs e)
         {
-
+            Diferente();
         }
 
         private void Diferente()
