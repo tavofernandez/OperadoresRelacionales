@@ -234,6 +234,7 @@ namespace OperadoresRelacionales
             this.btndiferente.TabIndex = 5;
             this.btndiferente.Text = "!=";
             this.btndiferente.UseVisualStyleBackColor = false;
+            this.btndiferente.Click += new System.EventHandler(this.btndiferente_Click);
             // 
             // panel1
             // 

@@ -142,6 +142,27 @@ namespace OperadoresRelacionales
             lblresultado.Text = resultado.ToString();
         }
 
+        private void btndiferente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Diferente()
+        {
+            Asignacion();
+
+            if (numero1 != numero2)
+            {
+                resultado = true;
+            }
+            else
+            {
+                resultado = false;
+            }
+
+            lblresultado.Text = resultado.ToString();
+        }
+
         private void frmOpRelacionales_Load(object sender, EventArgs e)
         {
 
